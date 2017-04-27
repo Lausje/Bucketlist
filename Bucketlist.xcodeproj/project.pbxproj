@@ -13,6 +13,8 @@
 		D3F964A31EB1D73B0051B1C0 /* Bucketlist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3F964A11EB1D73B0051B1C0 /* Bucketlist.xcdatamodeld */; };
 		D3F964A51EB1D73B0051B1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F964A41EB1D73B0051B1C0 /* Assets.xcassets */; };
 		D3F964A81EB1D73B0051B1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F964A61EB1D73B0051B1C0 /* LaunchScreen.storyboard */; };
+		D3F964B01EB1DB110051B1C0 /* travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3F964AF1EB1DB110051B1C0 /* travel.jpg */; };
+		D3F964B21EB1DCB30051B1C0 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F964B11EB1DCB30051B1C0 /* TripViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D3F964A41EB1D73B0051B1C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3F964A71EB1D73B0051B1C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3F964A91EB1D73B0051B1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3F964AF1EB1DB110051B1C0 /* travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel.jpg; sourceTree = "<group>"; };
+		D3F964B11EB1DCB30051B1C0 /* TripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		D3F964991EB1D73B0051B1C0 /* Bucketlist */ = {
 			isa = PBXGroup;
 			children = (
+				D3F964AF1EB1DB110051B1C0 /* travel.jpg */,
 				D3F9649A1EB1D73B0051B1C0 /* AppDelegate.swift */,
 				D3F9649C1EB1D73B0051B1C0 /* ViewController.swift */,
 				D3F9649E1EB1D73B0051B1C0 /* Main.storyboard */,
+				D3F964B11EB1DCB30051B1C0 /* TripViewController.swift */,
 				D3F964A41EB1D73B0051B1C0 /* Assets.xcassets */,
 				D3F964A61EB1D73B0051B1C0 /* LaunchScreen.storyboard */,
 				D3F964A91EB1D73B0051B1C0 /* Info.plist */,
@@ -130,6 +136,7 @@
 				D3F964A81EB1D73B0051B1C0 /* LaunchScreen.storyboard in Resources */,
 				D3F964A51EB1D73B0051B1C0 /* Assets.xcassets in Resources */,
 				D3F964A01EB1D73B0051B1C0 /* Main.storyboard in Resources */,
+				D3F964B01EB1DB110051B1C0 /* travel.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3F9649D1EB1D73B0051B1C0 /* ViewController.swift in Sources */,
+				D3F964B21EB1DCB30051B1C0 /* TripViewController.swift in Sources */,
 				D3F964A31EB1D73B0051B1C0 /* Bucketlist.xcdatamodeld in Sources */,
 				D3F9649B1EB1D73B0051B1C0 /* AppDelegate.swift in Sources */,
 			);
